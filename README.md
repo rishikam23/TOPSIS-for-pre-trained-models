@@ -32,12 +32,13 @@ The following **pre-trained models** from **Sentence Transformers** are evaluate
 Ensure you have the following installed:
 ```bash
 pip install numpy pandas sentence-transformers scipy datasets seaborn matplotlib tabulate
-'''
+```
+
 ### Usage
 Run the Python script:
-'''
+```
 >python 102203128.py "topsis_input.csv" "0.5,0.3,0.2" "+,-,-" "topsis_result.csv"
-'''
+```
 The script will:
 - Compute sentence similarities
 - Rank models using TOPSIS
