@@ -52,25 +52,28 @@ Graphical comparisons include:
 - Scatter Plot: Correlation vs. Inference time
 - Heatmap: Overall model performance
 
-### Output Table
-+---+------------+--------------------+--------------------+------------+--------------------+------+
-|   |   Model    |    Correlation     |   Inference Time   | Model Size |    Topsis Score    | Rank |
-+---+------------+--------------------+--------------------+------------+--------------------+------+
-| 0 | MiniLM-L6  | 0.8470136838318714 | 0.0190228582320161 |     22     | 0.9728091958885824 |  1   |
-| 1 | MiniLM-L12 | 0.8432774106996839 | 0.0372248405497019 |     33     | 0.8434844723551501 |  2   |
-| 2 | MPNet-Base | 0.8671197324805402 | 0.1293838268820151 |    100     | 0.0677648914493907 |  3   |
-| 3 | All-MPNet  | 0.8580658363697954 | 0.1298294495781477 |    110     | 0.0201429820185125 |  4   |
-+---+------------+--------------------+--------------------+------------+--------------------+------+
+### **Output Table**
+
+| #  | Model       | Correlation       | Inference Time (s) | Model Size (MB) | TOPSIS Score  | Rank |
+|----|------------|------------------|-------------------|----------------|---------------|------|
+| 0  | MiniLM-L6  | 0.8470           | 0.0190            | 22             | **0.9728**    | 1 |
+| 1  | MiniLM-L12 | 0.8433           | 0.0372            | 33             | 0.8435        | 2 |
+| 2  | MPNet-Base | 0.8671           | 0.1294            | 100            | 0.0678        | 3 |
+| 3  | All-MPNet  | 0.8581           | 0.1298            | 110            | 0.0201        | 4 |
+
 
 ### Graphs
 
 **TOPSIS Score for Pre-Trained Models**
+
 ![image](https://github.com/user-attachments/assets/c7681419-cec2-4c3d-b1a9-7a6c85fdf31f)
 
 **Model Performance: Correlation vs Inference Time**
+
 ![image](https://github.com/user-attachments/assets/2ea97ad7-9205-498d-b61e-7d40554155df)
 
 **Heatmap of Overall Performance**
+
 ![image](https://github.com/user-attachments/assets/0f484df6-26f1-4953-bf19-b084bf6fb092)
 
 ## License
