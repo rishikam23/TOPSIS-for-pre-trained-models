@@ -37,7 +37,7 @@ pip install numpy pandas sentence-transformers scipy datasets seaborn matplotlib
 ### Usage
 Run the Python script:
 ```
->python 102203128.py "topsis_input.csv" "0.5,0.3,0.2" "+,-,-" "topsis_result.csv"
+python 102203128.py "topsis_input.csv" "0.5,0.3,0.2" "+,-,-" "topsis_result.csv"
 ```
 The script will:
 - Compute sentence similarities
